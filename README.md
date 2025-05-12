@@ -47,3 +47,6 @@ overall, your Text Summarization Tool exemplifies a clean, maintainable codebase
 extractive algorithms and cutting-edge transformer-based abstractive models—and presents them through a lightweight yet flexible web interface that can serve a broad
 audience ranging from academic researchers and journalists to students and business professionals, all seeking an intuitive, “one-click” solution to distill vast
 amounts of information into digestible insights.
+
+*OUTPUT
+![Image](https://github.com/user-attachments/assets/6a24ef24-6f73-4947-957c-35d068e3ffbe)
