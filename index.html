@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Summarization Tool</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Summarization Tool</h1>
+        <form method="POST">
+            <textarea name="input_text" placeholder="Enter your text here...">{{ input_text }}</textarea>
+            
+            <div class="radio-options">
+                <label><input type="radio" name="method" value="extractive" required> Extractive</label>
+                <label><input type="radio" name="method" value="abstractive" required> Abstractive</label>
+            </div>
+
+            <button type="submit">Summarize</button>
+        </form>
+
+        {% if summary %}
+        <div class="result">
+            <h2>Summary</h2>
+            <p>{{ summary }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
